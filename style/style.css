@@ -178,6 +178,7 @@ justify-content: center;
     left: 150px;
     bottom: 150px;
     z-index: 10;
+    animation: neon 2s alternate infinite ease-in-out;
    
    
   
@@ -190,6 +191,8 @@ background: #08F3C9;
     left: 80px;
     top: 10px;
     z-index:15;
+    animation: neon 2s alternate infinite ease-in-out;
+    
     background: #08F3C9;
 }
 .logo h5 {
@@ -217,4 +220,29 @@ left: 120px;
 
 color: #08F3C9;
 
+}
+
+@keyframes neon-barra{
+    0%{
+        background-color: #08F3C9;
+    }
+   50%{
+        background-color: #B1FCEE;
+        width: 35px;
+        height: 850px;
+        
+    }
+    100%{
+        background-color: #1B1B2C;
+    }
+    
+}
+@keyframes neon{
+    from{
+        filter: drop-shadow(0 0 0 );
+        background-color: #08f3c850;
+    }from{
+        filter: drop-shadow(0 0 8px);
+        background-color: #00ffd0;
+    }
 }
