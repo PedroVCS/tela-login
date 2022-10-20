@@ -37,15 +37,15 @@ main{
 }
 #tela-login{
     background-color: #3A3359;
-    width: 420px;
-    height: 450px;
+    width: 26.3rem;
+    height: 28.3rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 3px 4px 4px 5px rgba(0, 0, 0, 0.25);
     border-radius: 29px;
     display: flex;
     flex-direction: column;
 
-    right: 150px;
-    top: 185px;
+    right: 10rem;
+    top: 12rem;
     position: relative;
    
   
@@ -86,19 +86,19 @@ main{
 display: flex;
 justify-content: center;
 align-items: center;
-width: 175px;
-height: 35px;
+width: 11rem;
+height: 2.3rem;
 background-color: #08F3C9;
 box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25); 
 border-radius: 10px;
 font-size: 25px;
-transition: border-radius 450ms;
+transition: ALL 450ms;
 
 }
 button:hover{
     background-color: #514869;
     filter: brightness(125%);
-    border-radius: 45%;
+
 
 
 }
@@ -114,8 +114,8 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 #caixa2{
-width: 420px;
-height: 88px;
+width: 26.2rem;
+height: 7rem;
 background: #463C70;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 3px 4px 4px 5px rgba(0, 0, 0, 0.25);
 border-radius: 29px;
@@ -136,8 +136,8 @@ justify-content: center;
 
 .registrar button{
     background-color: #463C70;
-    width: 235px;
-    height: 29px;
+    width: 15rem;
+    height: 2rem;
     background: #514869;
     box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -163,7 +163,7 @@ justify-content: center;
 
 .banner .caixas .banner1{
     position: absolute;
-    left: 15px;
+    left: 1rem;
     bottom: 0px;
     background: url(hand-1850120.jpg);
     border-radius: 47px;
@@ -173,12 +173,12 @@ justify-content: center;
 
 .banner .caixas .barra-lateral1{
     position: absolute;
-    width: 35px;
-    height: 300px;
-    left: 150px;
-    bottom: 150px;
+    width: 2rem;
+    height: 25rem;
+    left: 12rem;
+    bottom: 3rem;
     z-index: 10;
-    animation: neon 2s alternate infinite ease-in-out;
+    /* animation: neon 2s alternate infinite reverse; */
    
    
   
@@ -186,12 +186,12 @@ background: #08F3C9;
 }
 .banner .caixas .barra-lateral2{
     position: absolute;
-    width: 35px;
-    height: 850px;
-    left: 80px;
-    top: 10px;
+    width: 2rem;
+    height: 48rem;
+    left: 5rem;
+    top: 1.2rem;
     z-index:15;
-    animation: neon 2s alternate infinite ease-in-out;
+    /* animation: neon 2s alternate infinite ease-in-out; */
     
     background: #08F3C9;
 }
@@ -203,8 +203,8 @@ line-height: 63px;
 text-align: center;
 letter-spacing: 0.2rem;
 position: relative;
-top: 150px;
-left: 120px;
+top: 9.5rem;
+left: 7.6rem;
 
 color: #FFFFFF;
 }
@@ -215,14 +215,164 @@ font-size: 15px;
 text-align: center;
 letter-spacing: 0.02em;
 position: relative;
-top: 80px;
-left: 120px;
+top: 5rem;
+left: 7.6rem;
 
 color: #08F3C9;
 
 }
 
-@keyframes neon-barra{
+
+@media screen and (min-width: 0px) and (max-width: 440px){
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 440px){
+    .banner{
+        display: flex;
+        flex-direction: row;
+       position: relative;
+        top: 0rem;
+        
+        left: -10rem;
+    }
+}
+@media screen and (max-width: 440px) {
+    .banner1{
+        width: 179px;
+        height: 124px;
+        top: 0px;
+        position: fixed;
+        border-radius: 1px;
+   
+    }
+}
+@media screen and (max-width: 440px){
+    .barra-lateral3{
+        position: absolute;
+width: 26rem;
+height: 2rem;
+right: -20.9rem;
+top: 2rem;
+
+background: #08F3C9;
+
+
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 440px){
+    .logo h5{
+        font-size: 20px;
+        color: black;
+        position: fixed;
+        
+        left: 14rem;
+        top: -0.6rem;
+       
+    }
+    @media screen and (min-width: 0px) and (max-width: 440px){
+        .logo h6{
+            
+    position: fixed;
+   top: 2.2rem;
+   left: 12.9rem;
+   width: 8rem;
+        }
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 440px){
+    .barra-lateral1{ 
+        display: none;
+}}
+@media screen and (min-width: 0px) and (max-width: 440px){
+    .barra-lateral2{ 
+        display: none;
+}}
+@media screen and (max-width: 440px){
+  #tela-login  {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    position: absolute;
+
+        width: 18rem;
+        height: 19rem;
+        left: 2rem;
+        
+    }
+    @media screen and (max-width: 440px){
+        .login{
+            position: relative;
+            bottom: 2.1rem;
+        }
+}
+@media screen and (max-width: 440px){
+    .login a{
+        font-size: 8px;
+      
+    }
+}
+    @media screen and (max-width: 440px){
+        #caixa2{
+           
+position: absolute;
+width: 18rem;
+height: 4rem;
+bottom: -1rem;
+        }
+    }
+    @media screen and (max-width: 440px){
+        .login label{
+            font-size: 12px;
+         
+           
+        }
+    }
+    @media screen and (min-width: 0px) and (max-width: 440px){
+        .login input{
+            width: 10rem;
+            height: 1.5rem;
+        
+        }
+    }
+    @media screen and (max-width: 440px){
+    .caixa-login h1{
+        font-size: 25px;
+        position: relative;
+        bottom: 1.1rem;
+    }}
+    @media screen and (max-width: 440px){
+        .bt-login{
+            width: 5rem;
+            height: 1.5rem;
+            font-size: 12px;
+        }
+    }
+   
+    @media screen and (max-width: 440px){
+        .registrar h4{
+        font-size: 8px;
+        }
+        }
+        @media screen and (max-width: 440px){
+            .registrar button{
+                width: 10rem;
+                height: 1.5rem;
+                font-size: 10px;
+                
+            }
+        }
+        @media screen and (max-width: 440px){
+            .registrar img{
+                width: 15px;
+            }
+        }
+/* @keyframes neon-barra{
     0%{
         background-color: #08F3C9;
     }
@@ -244,5 +394,7 @@ color: #08F3C9;
     }from{
         filter: drop-shadow(0 0 8px);
         background-color: #00ffd0;
+    }from{
+        filter: sepia(#00ffd0);
     }
-}
+} */
