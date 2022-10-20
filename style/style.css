@@ -372,7 +372,7 @@ bottom: -1rem;
                 width: 15px;
             }
         }
-/* @keyframes neon-barra{
+ @keyframes neon-barra{
     0%{
         background-color: #08F3C9;
     }
@@ -397,4 +397,4 @@ bottom: -1rem;
     }from{
         filter: sepia(#00ffd0);
     }
-} */
+}  
